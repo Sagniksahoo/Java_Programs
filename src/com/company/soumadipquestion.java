@@ -282,5 +282,9 @@ Result = 32 - 11 = 21
         int d=sc.nextInt();
         int e=sc.nextInt();
         total_avg(a,b,c,d,e);
+
+
+        System.out.println();
+        System.out.println();
     }
 }
