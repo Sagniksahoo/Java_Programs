@@ -9,18 +9,18 @@ public class ch15_91_ArrayList {
         ArrayList<Integer> li= new ArrayList<>(5);
         ArrayList<Integer> l2= new ArrayList<>();
 
-        ArrayList<String > cars=new ArrayList<>();
-        cars.add("VOLVO");
-        cars.add("BMW");
-        cars.add("FORD");
-        cars.add("MAZDA");
+//        ArrayList<String > cars=new ArrayList<>();
+//        cars.add("VOLVO");
+//        cars.add("BMW");
+//        cars.add("FORD");
+//        cars.add("MAZDA");
+//
+//        Collections.sort(cars);
 
-        Collections.sort(cars);
 
-
-        for (String i: cars) {
-            System.out.println(i);
-        }
+//        for (String i: cars) {
+//            System.out.println(i);
+//        }
 
 
 
@@ -55,6 +55,12 @@ public class ch15_91_ArrayList {
 //        System.out.println( li.subList(1,3));
         for(int i=0;i<li.size();i++){
             System.out.print(li.get(i));
+            System.out.print(", ");
+
+        }
+        System.out.println();
+        for (int a:li) {
+            System.out.print(a);
             System.out.print(", ");
         }
        }
