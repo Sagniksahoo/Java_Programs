@@ -14,6 +14,7 @@ public class ch7_31_methods {
     static int sum(int x,int y){
         int z;
         z=x+y;
+        System.out.println(z);
         return z;
     }
      int logic(int x,int y){
@@ -45,5 +46,6 @@ public class ch7_31_methods {
         int c3;
         c3=sum(a3,b3);
         System.out.println(c3);
+
     }
 }
