@@ -1,4 +1,12 @@
 package com.company;
+
+/**
+ * this is a custom calculator class
+ * @author Sagnik Sahoo
+ * @version  17.1
+ * @since 2020
+
+ */
 class Max_Multiplier extends Exception{
     Max_Multiplier(String a){
 
