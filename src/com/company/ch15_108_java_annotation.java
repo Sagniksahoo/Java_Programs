@@ -1,7 +1,12 @@
 package com.company;
+@FunctionalInterface
+interface hello{
+    void hello();
+    //void helllo33();
+}
 class helloee{
     @Deprecated
-    public int sum(int a,int b){
+    public int sum(int a,int b) {
         return a+b;
     }
 }
