@@ -102,11 +102,11 @@ public class ch15_110_Java_Generics {
 //        System.out.println(str);
 //        System.out.println(kaka);
 
-//        Generic<String,Integer,String> obj=new Generic<>(56,"hello",67,"sahoo");
-//        int v=obj.getValu();
-//        String a=obj.getT1();
-//        int b=obj.getT2();
-//        String c=obj.getT3();
-//        System.out.println(v+" "+a+" "+b+" "+" "+c);
+        Generic<String,Integer,String> obj=new Generic<>(56,"hello",67,"sahoo");
+        int v=obj.getValu();
+        String a=obj.getT1();
+        int b=obj.getT2();
+        String c=obj.getT3();
+        System.out.println(v+" "+a+" "+b+" "+" "+c);
     }
 }
